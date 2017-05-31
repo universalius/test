@@ -23,7 +23,7 @@ namespace WebApplication1.Controllers
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
-
+            var v = 0;
             return View();
         }
 
