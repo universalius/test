@@ -19,6 +19,7 @@ namespace WebJob1
             if (config.IsDevelopment)
             {
                 config.UseDevelopmentSettings();
+                var b = 0;
             }
 
             var host = new JobHost();
