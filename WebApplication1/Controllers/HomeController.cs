@@ -29,6 +29,7 @@ namespace WebApplication1.Controllers
 
         public IActionResult Error()
         {
+            var v = 0;
             return View();
         }
     }
